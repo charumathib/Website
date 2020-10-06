@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 
 body {
   margin: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Comfortaa";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: scroll;
@@ -16,6 +16,6 @@ code {
 .screen-background {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 80%;
   margin: 16px 0;
 }

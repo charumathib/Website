@@ -8,7 +8,7 @@
 
 .timeline-item {
   display: flex;
-  width: 50%;
+  width: 75%;
   height: 120px;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,9 @@
 }
 
 .timeline-item:hover {
-  background-color: cornflowerblue;
+  -webkit-transform: scale(1);
+  transform: scale(1.1);
+  background-color: rgb(235, 235, 235);
 }
 
 .timeline-ball {
@@ -30,7 +32,7 @@
 
 .experience-info {
   padding: 24px;
-  font-size: 10pt;
+  font-size: 12pt;
 }
 
 .experience-info h4,
@@ -43,7 +45,7 @@ p {
   flex-direction: column;
   width: 50%;
   height: calc(100%);
-  background: crimson;
+  background: rgb(181, 113, 184);
   position: -webkit-sticky;
   position: sticky;
   top: 48px;

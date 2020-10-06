@@ -1,7 +1,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 80%;
   align-items: center;
   margin: 16px 0px;
 }
@@ -27,7 +27,7 @@
   margin: 0;
   justify-content: center;
   align-items: center;
-  color: #666666;
+  color: purple;
   text-decoration: none;
   font-weight: 400;
   transition: all 0.2s ease-in-out;
@@ -41,7 +41,7 @@
 .nav-background {
   display: flex;
   flex-direction: row;
-  width: 60%;
+  width: 80%;
   justify-content: center;
   border-top: 4px solid black;
   border-bottom: 4px solid black;
@@ -58,7 +58,7 @@
 .nav-link {
   text-decoration: none;
   font-weight: 500;
-  color: gray;
+  color: purple;
   transition: all 0.2s ease-in-out;
 }
 

@@ -9,13 +9,14 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+  align-items: center;
 }
 
 .intro-item h1,
 h2,
 ul,
 li {
-  margin: 4px 0;
+  margin: 15px 0;
 }
 
 .intro-item p {
@@ -23,6 +24,10 @@ li {
 }
 
 .intro-picture {
-  width: 100%;
+  width: 80%;
   height: 100%;
+}
+
+.experience-background {
+  display: flex;
 }
